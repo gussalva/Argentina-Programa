@@ -1,0 +1,74 @@
+* {
+	margin: 2px ;
+	box-sizing: border-box;
+	color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+body {
+	background-color: gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.todo {
+	width: 75%;
+	max-width: 1200px;
+	min-height: 120px;
+	background-color: #a9acaf;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.izquierdo {
+	position: initial;
+	background-color: black;
+	padding: 7px;
+}
+.derecho {
+	position: initial;
+	background-color: black;
+	padding: 20px;
+
+}
+.f_perfil .i_contacto, .habilidades, .idiomas, .hobbies, .titulo,
+.sumario, .experiencia, .educacion {
+	margin-bottom: 30px;
+}
+h2 {
+    text-decoration: underline rgb(159, 160, 145);
+    font-size: 17px;
+}
+img {
+    border: 2px solid dimgrey;
+    width: 150;
+    height: 150;
+	border-radius: 50%;
+}
+h1 {
+    font-size: 25px;
+}
+table {
+    font-family: arial;
+    border-collapse: separate;
+    width: 90%;
+}
+td, th {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+}
+.botones {
+	margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+}
+#b_modo {
+	color: black;
+}
+.f_perfil {
+	text-align: center;
+}
+footer {
+	text-align: center;
+}

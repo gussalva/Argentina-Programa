@@ -1,0 +1,72 @@
+* {
+	margin: 2px ;
+	box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+body {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.todo {
+	width: 75%;
+	max-width: 1200px;
+	min-height: 120px;
+	background-color: gray;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.izquierdo {
+	position: initial;
+	background-color: white;
+	padding: 7px;
+
+}
+.derecho {
+	position: initial;
+	background-color: white;
+	padding: 20px;
+
+}
+.f_perfil .i_contacto, .habilidades, .idiomas, .hobbies, .titulo,
+.sumario, .experiencia, .educacion {
+	margin-bottom: 30px;
+}
+.botones {
+	margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+	transition: 5s;
+}
+h2 {
+    text-decoration: underline rgba(95, 95, 95, 0.25);
+    font-size: 17px;
+}
+img {
+    border: 2px solid gray;
+    width: 150;
+    height: 150;
+	border-radius: 50%;
+}
+h1 {
+    font-size: 25px;
+}
+table {
+    font-family: arial;
+    border-collapse: separate;
+    width: 90%;
+}
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+.f_perfil {
+	text-align: center;
+}
+footer {
+	text-align: center;
+}
